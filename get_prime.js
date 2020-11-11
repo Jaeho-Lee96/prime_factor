@@ -1,10 +1,10 @@
-exports.get_prime = function(input) {
+exports.get_prime = function(input) { // input range 0~1000000
 
     const number = parseInt(input); // Convert String to Int for calculating
 
     var loop = parseInt(number**0.5); // Faster Algorithm to find Prime factor
-    var i = 1;
-    var max_prime = 0;
+    var i = 1; 
+    var max_prime = 0; // var for find max_prime
 
     while(i <= loop) {
         if(number % i == 0) {
