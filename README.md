@@ -20,13 +20,7 @@ input range: 0~1000000
 
 node.js 환경에서 개발 했으며, npm을 사용합니다. 
 
-```
-npm start
-```
-
-http://localhost:8080/?input=13195 과 같이 사용하면 된다.
-
-WSL2 환경에서 Docker를 사용했으며 다음과 같이 사용합니다. 
+WSL2 환경에서 Docker를 사용했으며 다음과 같이 사용했습니다. 
 
 ```
 docker build -t gcr.io/forward-garden-292611/prime-node:v1 .
@@ -101,7 +95,7 @@ kubectl create -f hello-node-rc.yaml
 
 
 
-![image-20201112050718080](C:\Users\hiljh\AppData\Roaming\Typora\typora-user-images\image-20201112050718080.png)
+![image](https://user-images.githubusercontent.com/62017716/98860093-7e799380-24a6-11eb-907a-d6c8d03d4597.png)
 
 
 
@@ -123,7 +117,7 @@ spec:
 
 ```
 
-![image-20201112051248764](C:\Users\hiljh\AppData\Roaming\Typora\typora-user-images\image-20201112051248764.png)
+![image](https://user-images.githubusercontent.com/62017716/98860105-83d6de00-24a6-11eb-9e23-a08c02fc5130.png)
 
 ```
 kubectl create -f hello-node-svc.yaml
@@ -132,14 +126,11 @@ kubectl create -f hello-node-svc.yaml
 
 
 ## 4. 출력 결과
-
-![image-20201112043646352](C:\Users\hiljh\AppData\Roaming\Typora\typora-user-images\image-20201112043646352.png)
-
+![image](https://user-images.githubusercontent.com/62017716/98860115-8802fb80-24a6-11eb-9a1c-9279ebb6e5b4.png)
 
 
 
-
-![image-20201112043613038](C:\Users\hiljh\AppData\Roaming\Typora\typora-user-images\image-20201112043613038.png)
+![image](https://user-images.githubusercontent.com/62017716/98860303-ca2c3d00-24a6-11eb-8100-9ea3226617e0.png)
 
 쿠버네티스 External IP는 이메일에 첨부 했습니다!
 
