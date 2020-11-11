@@ -20,13 +20,7 @@ input range: 0~1000000
 
 node.js 환경에서 개발 했으며, npm을 사용합니다. 
 
-```
-npm start
-```
-
-http://localhost:8080/?input=13195 과 같이 사용하면 된다.
-
-WSL2 환경에서 Docker를 사용했으며 다음과 같이 사용합니다. 
+WSL2 환경에서 Docker를 사용했으며 다음과 같이 사용했습니다. 
 
 ```
 docker build -t gcr.io/forward-garden-292611/prime-node:v1 .
