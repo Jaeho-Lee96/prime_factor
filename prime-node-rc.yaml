@@ -1,0 +1,23 @@
+apiVersion: v1
+
+kind: ReplicationController
+
+metadata:
+  name: prime-node-rc
+spec:
+  replicas: 3
+  selector:
+    app: prime-node
+  template:
+    metadata:
+      name: prime-node-pod
+      labels:
+        app: prime-node
+
+    spec:
+      containers:
+      - name: prime-node
+        image: gcr.io/forward-garden-292611/prime-node:v1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
