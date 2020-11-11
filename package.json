@@ -1,10 +1,10 @@
 {
-    "name": "get_prime_factors",
-    "version": "1.0.0",
-    "description": "get_prime factros using dockers",
-    "author": "Jaeho Lee <hiljh96@kookmin.ac.kr>",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    }
+  "name": "get_prime_factors",
+  "version": "1.0.0",
+  "description": "get_prime factros using dockers",
+  "author": "Jaeho Lee <hiljh96@kookmin.ac.kr>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   }
+}
